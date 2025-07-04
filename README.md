@@ -51,8 +51,6 @@ One-hot encoding pada label kelas
 
 Arsitektur Model CNN
 
-2–3 lapis konvolusi + pooling
-
 Dense layer dengan fungsi aktivasi ReLU dan Softmax
 
 Optimizer: Adam
@@ -70,13 +68,6 @@ Evaluasi Model
 Menggunakan confusion matrix dan classification report
 
 Menampilkan beberapa prediksi model terhadap data uji
-
-📈 Hasil
-Akurasi pelatihan mencapai ±95% setelah beberapa epoch
-
-Akurasi pengujian bergantung pada kompleksitas data
-
-Confusion matrix menunjukkan sebaran prediksi benar dan salah antar kelas
 
 🧠 Potensi Pengembangan
 Menambahkan augmentasi data untuk memperluas generalisasi model
